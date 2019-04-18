@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "BloodThirst";
+	src: url('/media/BloodThirst.ttf');
+}
+
+#fond{
+    background-image: url(media/jeux.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body{
+    overflow-x: hidden;
+overflow-y: hidden;
+}
+
+h1{
+    color: #850606 ; 
+    font-family: "BloodThirst";
+}
+
+.bloc{
+    border: 1px solid black;
+   background-color: black;
+   opacity: 0.6;
+   
+    
+}
+
+.texte{
+    color: white;
+    z-index: 1000;
+}
+
+.description{
+    font-weight: bold;
+}
+
+#res{
+    color: #850606;
+    font-weight: bold;
+}
+
+/* RESPONSIVE MAX 362PX */
+@media (max-width:362px){
+    h1{
+        font-size: 1.2rem;
+    }
+    #fond{
+        background-image: url(media/jeux.jpg);
+        background-repeat: no-repeat;
+        background-size: 100em;
+        
+    }
+}
+/* RESPONSIVE MAX 452PX */
+@media (min-width:363px) and (max-width:452px){
+    h1{
+        font-size: 1.7rem;
+    }
+    #fond{
+        background-image: url(media/jeux.jpg);
+        background-repeat: no-repeat;
+        background-size: 100em;
+        
+    }
+    
+}
+/* RESPONSIVE MAX 767PX */
+@media (min-width:452px) and (max-width:767px){
+    h1{
+        font-size: 1.7rem;
+    }
+    #fond{
+        background-image: url(media/jeux.jpg);
+        background-repeat: no-repeat;
+        background-size: 100em;
+        
+    }
+    
+}
+/* RESPONSIVE MAX 991PX */
+@media (min-width:768px) and (max-width:991px){
+    h1{
+        font-size: 3rem;
+    }
+    .texte{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+       
+    }
+    .valide{
+        width: 200px;
+        height: 60px;
+        font-size: 2rem;
+    }
+    .recommence{
+        width: 270px;
+        height: 60px;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .case{
+        width: 200px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    #fond{
+        background-image: url(media/jeux.jpg);
+        background-repeat: no-repeat;
+        background-size: 300em;
+        
+    }
+    
+}
+
